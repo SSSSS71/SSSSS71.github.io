@@ -1,0 +1,66 @@
+    body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+   }
+    a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+    a:hover {
+    color: #f71ad5; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #fc6; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+    border-bottom: 3px solid #cccccc;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #1f9fe3;
+   }
+    section {
+    background-image: url(1351467_1.jpeg);
+    background-size: 20%;
+    
+    }
+   #header { /* Верхний блок */
+    background: linear-gradient(to top right, #27c4f2, #3f0cea); /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    text-align: center;
+   }
+   .sidebar { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 17%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 1px 20px 5px; /* Значения отступов */
+    background-color: #c9d2ea;   
+   }
+    #sidebar2 { /* Левая колонка */
+    float: right; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 20%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 5px 20px 1px; /* Значения отступов */
+    background-color: #c9d2ea;
+    }
+   #content { /* Правая колонка */
+    margin: 10px 1px 20px 17%; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+    font-size: 16px;
+    height: 750px;
+    width: 58%;
+    overflow: scroll;
+   }
+   .footer { /* Нижний блок */
+    background: #c9d2ea; /* Цвет фона */
+    font-size: 16px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #fc6;
+    clear: left; /* Отменяем действие float */
+   
+   }
